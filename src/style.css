@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #272829;
+    color: #d7d8d9
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 20px 4px 0 rgba(0, 0, 0, .1);
+    background-color: #19191a;
+}
+
+.navbar>p {
+    margin-right: 3em;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo>p {
+    margin-left: 1em;
+    font-size: xx-large;
+    color: #61dbfb;
+
+}
+
+.navbar-logo>img {
+    max-height: 7em;
+    max-width: 7em;
+}
+
+.footer {
+    margin: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    border-style: double;
+    border-color: #d7d8d9;
+    border-radius: 1em;
+}
+
+.footer>p {
+    font-size: 13;
+    margin-left: 10;
+}
+
+.fun-facts-container {
+    margin: 3em;
+}
+
+.fun-facts-container>ul>li {
+    margin-bottom: 3em;
+    font-size: large;
+}
+
+.fun-facts-container>ul>li::marker {
+    color: #61dbfb
+}
